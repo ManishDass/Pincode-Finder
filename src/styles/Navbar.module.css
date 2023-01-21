@@ -1,0 +1,45 @@
+.navbar-Wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60px;
+    padding: 0 5rem 0 5rem;
+    gap: 30px;
+}
+
+.navbar-Wrapper a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.logo-Wrapper {
+    margin-right: auto;
+}
+
+.logo {
+    height: 40px;
+}
+
+.feedback {
+    right: -40px;
+    top: 50vh;
+    position: fixed;
+    transform: rotate(90deg);
+    background-color: #f46b45;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.feedback:hover {
+    color: white;
+    background-color: rgb(43, 95, 131);
+}
+
+

@@ -1,0 +1,15 @@
+.result-wrapper {
+    background-color: #EFF5F7;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    padding: 2rem 1rem;
+
+}
+
+.card-wrapper {
+    background-color: #589bb1;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
